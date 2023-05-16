@@ -10,16 +10,9 @@ namespace ConsoleAppRealEstate
     {  
         int _noOfApartment { get; set; } 
         double _livingSpace { get; set; }
-        List<Wohnung> _WohnungList { get; set; }  //List<Wohnung> wohnungList, 
-
-        //7bool? _hasBelcony { get; set; }   
+        List<Wohnung> _WohnungList { get; set; }    
         public Wohnhous(int bauJahr): base( bauJahr ) 
         {
-
-            
-            
-           // this._WohnungList = wohnungList;
-            //this._hasBelcony = hasBelcony;
            
 
         }

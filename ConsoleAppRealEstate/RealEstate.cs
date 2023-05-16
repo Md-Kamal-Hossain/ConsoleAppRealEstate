@@ -18,18 +18,7 @@ namespace ConsoleAppRealEstate
         string houseNo { get; set; }    
         string city { get; set; }
         string zipCode { get; set; }
-        //public RealEstate(int bauJahr, int propertySize, int livingSpace, int basementArea, string heatingSystem, string streetName, string houseNo, string city, string zipCode)
-        //{
-        //    this.bauJahr = bauJahr;
-        //    //this.propertySize = propertySize;
-        //    //this.livingSpace = livingSpace;
-        //    //this.basementArea = basementArea;
-        //    //this.heatingSystem = heatingSystem;
-        //    //this.streetName = streetName;
-        //    //this.houseNo = houseNo;
-        //    //this.city = city;
-        //    //this.zipCode = zipCode;
-        //}
+        
 
         public RealEstate(int bauJahr)
         {
