@@ -9,15 +9,15 @@ namespace ConsoleAppRealEstate
     public class Wohnung: Wohnhous
     {
         
-        public double _livingSpace { get;  }
+        public double LivingSpace { get;  }
       
-        public int _noOfRooms { get;  }
-        public bool? _hasBelcony { get;  }
+        public int NoOfRooms { get;  }
+        public bool? HasBelcony { get;  }
         public Wohnung(int bauJahr, double livingSpace, int noOfRooms, bool hasBelcony):base(bauJahr)
         {
-            this._noOfRooms = noOfRooms;
-            this._livingSpace = livingSpace;    
-            this._hasBelcony = hasBelcony;  
+            this.NoOfRooms = noOfRooms;
+            this.LivingSpace = livingSpace;    
+            this.HasBelcony = hasBelcony;  
 
 
         }

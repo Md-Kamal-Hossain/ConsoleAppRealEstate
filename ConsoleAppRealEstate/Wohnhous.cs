@@ -8,10 +8,12 @@ namespace ConsoleAppRealEstate
 {
     public class Wohnhous: RealEstate
     {
-        int _noOfApartment { get; set; } 
-        double _livingSpace { get; set; }
+        // Declare an NoOfApartment property of type int
+           //int NoOfApartment { get; set; }
+        // Declare an LivingSpace property of type int
+           //double LivingSpace { get; set; }
         
-        
+        //Constructor
         public Wohnhous(int bauJahr): base( bauJahr ) 
         {
            
