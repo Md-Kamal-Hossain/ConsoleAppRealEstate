@@ -9,15 +9,15 @@ namespace ConsoleAppRealEstate
 {
     public abstract class RealEstate
     {
-        int bauJahr { get; set; }   
-        double propertySize { get; set; }  
-        double? livingSpace { get; set; }   
-        double? basementArea { get; set; }  
-        HeatingSystems? HeatingSystems { get; set; } 
-        string streetName { get; set; } 
-        string houseNo { get; set; }    
-        string city { get; set; }
-        string zipCode { get; set; }
+       public  int bauJahr { get; set; }   
+       public  double propertySize { get; set; }  
+       public  double? livingSpace { get; set; }   
+       public double? basementArea { get; set; }  
+       public HeatingSystems? HeatingSystems { get; set; } 
+       public string streetName { get; set; } 
+       public string houseNo { get; set; }    
+       public string city { get; set; }
+       public string zipCode { get; set; }
         
 
         public RealEstate(int bauJahr)
